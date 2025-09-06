@@ -2,3 +2,6 @@ docker build -t ctts .
 ###
 # runme ###
 echo "docker run --rm -it -p 5002:5002 --entrypoint /bin/bash ctts"
+###
+# local build #
+pip install -e .[all]
